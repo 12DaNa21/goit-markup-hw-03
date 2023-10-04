@@ -3,14 +3,15 @@
 *:after {
   box-sizing: border-box;
 }
+.container {
+  width: 1558px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
-  height: 3300px;
-  margin: auto;
-  padding: auto;
 }
 ul {
   list-style: none;
@@ -18,15 +19,22 @@ ul {
 a {
   text-decoration: none;
 }
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 address {
   font-style: normal;
 }
+
 .header {
   display: flex;
   text-align: center;
   justify-content: space-between;
-  padding-top: 26px;
-  height: 72px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-nav {
   display: flex;
@@ -96,7 +104,8 @@ address {
 }
 .hero-image-top {
   background-color: #2e2f42;
-  height: 600px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .first-head-hero {
   font-size: 56px;
@@ -104,12 +113,14 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
-  padding-top: 188px;
   padding-right: 472px;
   padding-left: 472px;
   margin-bottom: 48px;
 }
+.button-decoration {
+  padding-left: 656px;
+}
+
 .hero-btn {
   background-color: #4d5ae5;
   font-weight: 500;
@@ -118,11 +129,9 @@ address {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  display: inline-flex;
+  text-align: center;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  margin-left: 636px;
+  display: inline-flex;
 }
 .hero-btn:hover {
   background-color: #404bbf;
@@ -130,12 +139,14 @@ address {
 .hero-btn:focus {
   background-color: #404bbf;
 }
+.main-benefits-menu {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .benefits-menu-top {
   display: flex;
   gap: 40px;
-  padding-top: 120px;
   padding-right: 156px;
-  padding-bottom: 120px;
   padding-left: 156px;
 }
 .benefits-head-text {
@@ -147,15 +158,12 @@ address {
   color: #2e2f42;
 }
 .benefits-menu-item {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
   width: 264px;
 }
 .our-team-top {
   background-color: #f4f4fd;
-  height: 720px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .second-head-team {
   font-size: 36px;
@@ -165,7 +173,6 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .our-team-menu {
@@ -184,11 +191,10 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.our-team-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+
+.our-porfolio-top {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .second-head-portfolio {
   font-size: 36px;
@@ -197,14 +203,12 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .our-porfolio-menu {
   display: flex;
   gap: 32px;
   padding-left: 156px;
-  padding-bottom: 120px;
 }
 .our-portfolio-head {
   font-weight: 500;
@@ -213,16 +217,11 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.our-portfolio-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 .down-section-menu {
   background-color: #2e2f42;
-  height: 312px;
-  padding-top: 100px;
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 .down-logo-text {
   font-weight: 700;
@@ -239,9 +238,7 @@ address {
   margin-bottom: 18px;
 }
 .paragraph-text-footer {
-  line-height: 1.5;
   color: #f4f4fd;
-  letter-spacing: 0.02em;
-  text-align: left;
+
   padding-left: 156px;
 }
