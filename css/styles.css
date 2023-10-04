@@ -12,9 +12,11 @@ body {
   margin: auto;
   padding: auto;
 }
-ul,
-ol {
+ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 address {
   font-style: normal;
@@ -32,28 +34,18 @@ address {
 }
 .logo-top-nav {
   color: var(--IRIS, #4d5ae5);
-
   font-family: Raleway, sans-serif;
   font-size: 18px;
   padding-top: 17px;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 21px;
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
-  text-decoration: none;
   padding-left: 156px;
 }
 .top-span-logo {
   color: #2e2f42;
-
-  font-size: 18px;
-
-  font-weight: 700;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.03em;
-  line-height: 1.17;
-  text-transform: uppercase;
 }
 
 .menu-nav-top {
@@ -63,20 +55,16 @@ address {
   display: flex;
 }
 .menu-nav-item {
-  list-style-type: none;
-
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
 .link-nav {
   color: #2e2f42;
   font-style: normal;
-  text-decoration: none;
-  list-style-type: none;
 }
 
 .link-nav:hover {
@@ -96,15 +84,9 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  text-decoration: none;
-  list-style-type: none;
 }
 .link-contacts {
   color: #434455;
-
-  text-decoration: none;
-  list-style-type: none;
 }
 .link-contacts:hover {
   color: #404bbf;
@@ -130,14 +112,12 @@ address {
 }
 .hero-btn {
   background-color: #4d5ae5;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
@@ -152,7 +132,6 @@ address {
 }
 .benefits-menu-top {
   display: flex;
-
   gap: 40px;
   padding-top: 120px;
   padding-right: 156px;
@@ -253,7 +232,6 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-
   padding-left: 156px;
 }
 .down-span-logo {
@@ -265,6 +243,5 @@ address {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   text-align: left;
-
   padding-left: 156px;
 }
