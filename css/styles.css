@@ -3,16 +3,13 @@
 *:after {
   box-sizing: border-box;
 }
-.container {
-  width: 1558px;
-  margin: 0 auto;
-  padding: 0 auto;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
+
 ul {
   list-style: none;
 }
@@ -28,39 +25,41 @@ p {
 address {
   font-style: normal;
 }
-
-.header {
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+img {
+  display: block;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  max-width: 1558px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .header-nav {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 .logo-top-nav {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  padding-top: 17px;
+  margin-right: 76px;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
-  padding-left: 156px;
 }
 .top-span-logo {
   color: #2e2f42;
 }
 
 .menu-nav-top {
-  color: #2e2f42;
-  margin-left: 76px;
-  gap: 40px;
   display: flex;
+  gap: 40px;
+  color: #2e2f42;
 }
 .menu-nav-item {
   font-size: 16px;
@@ -69,6 +68,7 @@ address {
   line-height: 24px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  padding: 24px 0;
 }
 .link-nav {
   color: #2e2f42;
@@ -82,7 +82,7 @@ address {
   color: #404bbf;
 }
 .nav-top-contacts {
-  padding-right: 156px;
+  display: flex;
 }
 .nav-contacts-menu {
   display: flex;
@@ -104,21 +104,16 @@ address {
 }
 .hero-image-top {
   background-color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 188px 0;
 }
+
 .first-head-hero {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  padding-right: 472px;
-  padding-left: 472px;
-  margin-bottom: 48px;
-}
-.button-decoration {
-  padding-left: 656px;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -131,7 +126,11 @@ address {
   cursor: pointer;
   text-align: center;
   padding: 16px 32px;
-  display: inline-flex;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-btn:hover {
   background-color: #404bbf;
@@ -140,14 +139,14 @@ address {
   background-color: #404bbf;
 }
 .main-benefits-menu {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .benefits-menu-top {
   display: flex;
-  gap: 40px;
-  padding-right: 156px;
-  padding-left: 156px;
+  gap: 24px;
+}
+.benefits-menu-item {
+  width: calc((100% - 72px) / 4);
 }
 .benefits-head-text {
   font-weight: 500;
@@ -156,14 +155,12 @@ address {
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
-.benefits-menu-item {
-  width: 264px;
-}
+
 .our-team-top {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .second-head-team {
   font-size: 36px;
@@ -178,11 +175,16 @@ address {
 .our-team-menu {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
 }
+
 .our-team-item {
   background-color: #ffffff;
   text-align: center;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-container-item {
+  padding: 32px 0;
 }
 .our-team-head {
   font-weight: 500;
@@ -190,8 +192,12 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
-
+.our-team-text {
+  text-align: center;
+}
 .our-porfolio-top {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -207,8 +213,17 @@ address {
 }
 .our-porfolio-menu {
   display: flex;
-  gap: 32px;
-  padding-left: 156px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.our-porfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-container-item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .our-portfolio-head {
   font-weight: 500;
@@ -216,12 +231,12 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .down-section-menu {
   background-color: #2e2f42;
-  padding-top: 101.5px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 .down-logo-text {
   font-weight: 700;
@@ -231,7 +246,8 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  padding-left: 156px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .down-span-logo {
   color: #f4f4fd;
@@ -239,6 +255,5 @@ address {
 }
 .paragraph-text-footer {
   color: #f4f4fd;
-
-  padding-left: 156px;
+  max-width: 264px;
 }

@@ -19,9 +19,10 @@
   </head>
   <body>
     <!-- Container -->
-    <div class="container">
-      <header class="header">
-        <!-- Navigation -->
+
+    <header class="header">
+      <!-- Navigation -->
+      <div class="container">
         <nav class="header-nav">
           <a class="logo-top-nav" href="./index.html">
             web<span class="top-span-logo">Studio</span>
@@ -38,6 +39,7 @@
             </li>
           </ul>
         </nav>
+
         <!-- Contacts -->
         <address class="nav-top-contacts">
           <ul class="nav-contacts-menu">
@@ -53,53 +55,59 @@
             </li>
           </ul>
         </address>
-      </header>
-      <main>
-        <!-- Hero image -->
-        <section class="hero-image-top">
+      </div>
+    </header>
+    <main>
+      <!-- Hero image -->
+
+      <section class="hero-image-top">
+        <div class="container">
           <h1 class="first-head-hero">Effective Solutions for Your Business</h1>
-          <div class="button-decoration">
-            <button class="hero-btn" type="button">Order Service</button>
-          </div>
-        </section>
-        <!-- Benefits -->
-        <section class="main-benefits-menu" id="studio">
+
+          <button class="hero-btn" type="button">Order Service</button>
+        </div>
+      </section>
+      <!-- Benefits -->
+      <section class="main-benefits-menu" id="studio">
+        <div class="container">
           <h2 hidden class="hide-benefits-head">Benefits</h2>
 
           <ul class="benefits-menu-top">
-            <li>
+            <li class="benefits-menu-item">
               <h3 class="benefits-head-text">Strategy</h3>
-              <p class="benefits-menu-item">
+              <p>
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="benefits-menu-item">
               <h3 class="benefits-head-text">Punctuality</h3>
-              <p class="benefits-menu-item">
+              <p>
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="benefits-menu-item">
               <h3 class="benefits-head-text">Diligence</h3>
-              <p class="benefits-menu-item">
+              <p>
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="benefits-menu-item">
               <h3 class="benefits-head-text">Technologies</h3>
-              <p class="benefits-menu-item">
+              <p>
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
             </li>
           </ul>
-        </section>
-        <!-- Our team-->
+        </div>
+      </section>
+      <!-- Our team-->
 
-        <section class="our-team-top" id="contacts">
+      <section class="our-team-top" id="contacts">
+        <div class="container">
           <h2 class="second-head-team">Our Team</h2>
           <ul class="our-team-menu">
             <li class="our-team-item">
@@ -108,13 +116,17 @@
                 alt="Mark-Guerrero"
                 width="264"
               />
-              <h3 class="our-team-head">Mark Guerrero</h3>
-              <p class="our-team-text">Product Designer</p>
+              <div class="team-container-item">
+                <h3 class="our-team-head">Mark Guerrero</h3>
+                <p class="our-team-text">Product Designer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img src="./images/tom-ford.jpg" alt="Tom-Ford" width="264" />
-              <h3 class="our-team-head">Tom Ford</h3>
-              <p class="our-team-text">Frontend Developer</p>
+              <div class="team-container-item">
+                <h3 class="our-team-head">Tom Ford</h3>
+                <p class="our-team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -122,8 +134,10 @@
                 alt="Camila-Garcia"
                 width="264"
               />
-              <h3 class="our-team-head">Camila Garcia</h3>
-              <p class="our-team-text">Marketing</p>
+              <div class="team-container-item">
+                <h3 class="our-team-head">Camila Garcia</h3>
+                <p class="our-team-text">Marketing</p>
+              </div>
             </li>
             <li class="our-team-item">
               <img
@@ -131,13 +145,17 @@
                 alt="Daniel-Wilson"
                 width="264"
               />
-              <h3 class="our-team-head">Daniel Wilson</h3>
-              <p class="our-team-text">UI Designer</p>
+              <div class="team-container-item">
+                <h3 class="our-team-head">Daniel Wilson</h3>
+                <p class="our-team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
-        </section>
-        <!-- Our portfolio -->
-        <section class="our-porfolio-top" id="portfolio">
+        </div>
+      </section>
+      <!-- Our portfolio -->
+      <section class="our-porfolio-top" id="portfolio">
+        <div class="container">
           <!-- Row 1 -->
           <h2 class="second-head-portfolio">Our Portfolio</h2>
           <ul class="our-porfolio-menu">
@@ -147,8 +165,10 @@
                 alt="Banking App"
                 width="360"
               />
-              <h3 class="our-portfolio-head">Banking App</h3>
-              <p class="our-portfolio-text">App</p>
+              <div class="portfolio-container-item">
+                <h3 class="our-portfolio-head">Banking App</h3>
+                <p class="our-portfolio-text">App</p>
+              </div>
             </li>
             <li class="our-porfolio-item">
               <img
@@ -156,8 +176,10 @@
                 alt="Cashless Payment"
                 width="360"
               />
-              <h3 class="our-portfolio-head">Cashless Payment</h3>
-              <p class="our-portfolio-text">Marketing</p>
+              <div class="portfolio-container-item">
+                <h3 class="our-portfolio-head">Cashless Payment</h3>
+                <p class="our-portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="our-porfolio-item">
               <img
@@ -165,19 +187,22 @@
                 alt="Meditaion App"
                 width="360"
               />
-              <h3 class="our-portfolio-head">Meditation App</h3>
-              <p class="our-portfolio-text">App</p>
+              <div class="portfolio-container-item">
+                <h3 class="our-portfolio-head">Meditation App</h3>
+                <p class="our-portfolio-text">App</p>
+              </div>
             </li>
-          </ul>
-          <ul class="our-porfolio-menu">
+
             <li class="our-porfolio-item">
               <img
                 src="./images/taxi-service.jpg"
                 alt="Taxi Service"
                 width="360"
               />
-              <h3 class="our-portfolio-head">Taxi Service</h3>
-              <p class="our-portfolio-text">Marketing</p>
+              <div class="portfolio-container-item">
+                <h3 class="our-portfolio-head">Taxi Service</h3>
+                <p class="our-portfolio-text">Marketing</p>
+              </div>
             </li>
             <li class="our-porfolio-item">
               <img
@@ -185,8 +210,10 @@
                 alt="Screen Illustrations"
                 width="360"
               />
-              <h3 class="our-portfolio-head">Screen Illustrations</h3>
-              <p class="our-portfolio-text">Design</p>
+              <div class="portfolio-container-item">
+                <h3 class="our-portfolio-head">Screen Illustrations</h3>
+                <p class="our-portfolio-text">Design</p>
+              </div>
             </li>
             <li class="our-porfolio-item">
               <img
@@ -194,13 +221,17 @@
                 alt="Online Courses"
                 width="360"
               />
-              <h3 class="our-portfolio-head">Online Courses</h3>
-              <p class="our-portfolio-text">Marketing</p>
+              <div class="portfolio-container-item">
+                <h3 class="our-portfolio-head">Online Courses</h3>
+                <p class="our-portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
-        </section>
-      </main>
-      <footer class="down-section-menu">
+        </div>
+      </section>
+    </main>
+    <footer class="down-section-menu">
+      <div class="container">
         <a class="down-logo-text" href="./index.html">
           web<span class="down-span-logo">Studio</span>
         </a>
@@ -209,7 +240,7 @@
           for your business with digital<br />
           marketing & growth solutions.
         </p>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
