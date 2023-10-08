@@ -140,7 +140,7 @@ img {
 .main-benefits-menu {
   padding: 120px 0;
 }
-.hidden-head {
+.visually-hidden {
   visibility: hidden;
 }
 .benefits-menu-top {
