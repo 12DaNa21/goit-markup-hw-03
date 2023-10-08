@@ -138,7 +138,7 @@ img {
   background-color: #404bbf;
 }
 .hidden-element {
-  display: none;
+  visibility: hidden;
 }
 .main-benefits-menu {
   padding: 120px 0;
