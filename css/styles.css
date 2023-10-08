@@ -140,14 +140,13 @@ img {
 .main-benefits-menu {
   padding: 120px 0;
 }
-.visually-hidden {
-  visibility: hidden;
-}
+
 .benefits-menu-top {
   display: flex;
   gap: 24px;
 }
 .benefits-menu-item {
+  width: calc((100% - 72px) / 4);
 }
 .benefits-head-text {
   font-weight: 500;
@@ -157,7 +156,6 @@ img {
   line-height: 1.2;
   color: #2e2f42;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .our-team-top {
