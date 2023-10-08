@@ -125,8 +125,6 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  text-align: center;
-  padding: 16px 32px;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -142,7 +140,7 @@ img {
 .main-benefits-menu {
   padding: 120px 0;
 }
-.visually-hidden {
+.hidden-head {
   display: none;
 }
 .benefits-menu-top {
