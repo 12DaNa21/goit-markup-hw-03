@@ -244,6 +244,7 @@ img {
   padding: 100px 0;
 }
 .down-logo-text {
+  display: inline-block;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -251,12 +252,10 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-
   margin-bottom: 16px;
 }
 .down-span-logo {
   color: #f4f4fd;
-  display: inline-block;
 }
 .paragraph-text-footer {
   color: #f4f4fd;
