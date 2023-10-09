@@ -97,12 +97,11 @@ img {
 .link-contacts {
   color: #434455;
 }
-.link-contacts:hover {
-  color: #404bbf;
-}
+.link-contacts:hover,
 .link-contacts:focus {
   color: #404bbf;
 }
+
 .hero-image-top {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -126,6 +125,7 @@ img {
   color: #ffffff;
   cursor: pointer;
   display: block;
+
   min-width: 169px;
   height: 56px;
   border: none;
@@ -137,8 +137,10 @@ img {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-.hidden-element {
+.visually-hidden {
   visibility: hidden;
+  pointer-events: none;
+  position: absolute;
 }
 .main-benefits-menu {
   padding: 120px 0;
@@ -148,9 +150,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.benefits-menu-item {
-  width: calc((100% - 72px) / 4);
-}
+
 .benefits-head-text {
   font-weight: 500;
   font-size: 20px;
@@ -158,6 +158,8 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: #2e2f42;
+
+  width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
 }
 
@@ -178,13 +180,13 @@ img {
 .our-team-menu {
   display: flex;
   gap: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-item {
   background-color: #ffffff;
   text-align: center;
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 .team-container-item {
   padding: 32px 0;
@@ -249,11 +251,12 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  display: inline-block;
+
   margin-bottom: 16px;
 }
 .down-span-logo {
   color: #f4f4fd;
+  display: inline-block;
 }
 .paragraph-text-footer {
   color: #f4f4fd;
