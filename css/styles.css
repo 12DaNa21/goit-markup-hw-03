@@ -141,9 +141,11 @@ img {
 .benefits-menu-top {
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 .benefits-menu-top .benefits-menu-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-head-text {
