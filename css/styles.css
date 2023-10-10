@@ -236,12 +236,14 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
+.our-portfolio-text {
+  text-align: start;
+}
 .down-section-menu {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.container .down-logo-text {
+.down-logo-text {
   display: inline-block;
   font-weight: 700;
   font-size: 18px;
@@ -250,7 +252,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-top: 0;
   margin-bottom: 16px;
 }
 .down-span-logo {
