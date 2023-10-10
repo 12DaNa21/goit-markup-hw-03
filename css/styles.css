@@ -147,6 +147,7 @@ img {
 .benefits-menu-item {
   width: calc((100% - 72px) / 4);
 }
+
 .benefits-head-text {
   font-weight: 500;
   font-size: 20px;
