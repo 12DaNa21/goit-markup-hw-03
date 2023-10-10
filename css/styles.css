@@ -144,6 +144,8 @@ img {
   display: flex;
   gap: 24px;
 }
+.benefits-menu-item {
+  width: calc((100%-72px)/4);}
 
 .benefits-head-text {
   font-weight: 500;
@@ -155,9 +157,7 @@ img {
 
   margin-bottom: 8px;
 }
-.benefits-menu-item {
-  width: calc((100% - 72px) / 4);
-}
+
 .our-team-top {
   background-color: #f4f4fd;
   padding: 120px 0;
