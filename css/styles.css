@@ -144,7 +144,6 @@ img {
 }
 .benefits-menu-item {
   flex-basis: calc((100% - 72px) / 4);
-  background-color: red;
 }
 
 .benefits-head-text {
