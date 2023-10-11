@@ -1,6 +1,6 @@
 *,
-*:before,
-*:after {
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -236,9 +236,6 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.our-portfolio-text {
-  text-align: start;
-}
 .down-section-menu {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -251,7 +248,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
+
   margin-bottom: 16px;
 }
 .down-span-logo {
