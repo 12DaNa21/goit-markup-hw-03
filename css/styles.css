@@ -237,6 +237,7 @@ img {
 .portfolio-container-item {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .our-portfolio-head {
   font-weight: 500;
