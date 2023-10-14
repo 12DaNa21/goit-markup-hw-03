@@ -68,7 +68,6 @@ h3 {
 }
 /* ============ HEADER ============== */
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
@@ -123,6 +122,7 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .link-contacts {
   color: #434455;
