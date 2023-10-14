@@ -117,12 +117,12 @@ h3 {
   gap: 40px;
   padding-left: 0;
   margin-left: 332px;
+  padding: 24px 0;
 }
 .nav-contacts-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 .link-contacts {
   color: #434455;
@@ -175,7 +175,7 @@ h3 {
   overflow: hidden;
 }
 
-.benefits-menu-item {
+.benefits-menu-top .benefits-menu-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -186,7 +186,7 @@ h3 {
   padding: 120px 0;
 }
 
-.our-team-item {
+.our-team-menu .our-team-item {
   background-color: #ffffff;
   text-align: center;
   width: calc((100% - 72px) / 4);
@@ -212,7 +212,7 @@ h3 {
   row-gap: 48px;
   border-radius: 0px 0px 4px 4px;
 }
-.our-porfolio-item {
+.our-porfolio-menu .our-porfolio-item {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-container-item {
