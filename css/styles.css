@@ -90,13 +90,14 @@ h3 {
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .top-span-logo {
   color: #2e2f42;
 }
 .menu-nav-top {
   padding-left: 0;
-  margin-left: 76px;
+  gap: 40px;
 }
 .menu-nav-item {
   font-size: 16px;
@@ -105,6 +106,7 @@ h3 {
   line-height: 24px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  gap: 40px;
 }
 
 .link-nav:hover,
@@ -174,7 +176,7 @@ h3 {
   overflow: hidden;
 }
 
-.benefits-menu-top .benefits-menu-item {
+.benefits-menu-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -185,7 +187,7 @@ h3 {
   padding: 120px 0;
 }
 
-.our-team-menu .our-team-item {
+.our-team-item {
   background-color: #ffffff;
   text-align: center;
   width: calc((100% - 72px) / 4);
@@ -211,7 +213,7 @@ h3 {
   row-gap: 48px;
   border-radius: 0px 0px 4px 4px;
 }
-.our-porfolio-menu .our-porfolio-item {
+.our-porfolio-item {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-container-item {
