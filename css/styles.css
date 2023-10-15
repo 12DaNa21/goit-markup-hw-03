@@ -96,6 +96,7 @@ h3 {
 }
 .menu-nav-top {
   gap: 40px;
+  padding: 24px 0;
 }
 .menu-nav-item {
   font-size: 16px;
@@ -104,7 +105,6 @@ h3 {
   line-height: 24px;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  padding: 24px 0;
 }
 
 .link-nav:hover,
