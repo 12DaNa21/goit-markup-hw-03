@@ -95,7 +95,7 @@ h3 {
   color: #2e2f42;
 }
 .menu-nav-top {
-  padding-left: 0;
+  padding: 24px 0;
   gap: 40px;
 }
 .menu-nav-item {
