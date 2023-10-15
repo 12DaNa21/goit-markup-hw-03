@@ -174,7 +174,7 @@ h3 {
   overflow: hidden;
 }
 
-.benefits-menu-top .benefits-menu-item {
+.benefits-menu-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -185,7 +185,7 @@ h3 {
   padding: 120px 0;
 }
 
-.our-team-menu .our-team-item {
+.our-team-item {
   background-color: #ffffff;
   text-align: center;
   width: calc((100% - 72px) / 4);
