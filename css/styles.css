@@ -24,7 +24,8 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+a {
+  color: #2e2f42;}
 img {
   display: block;
   width: 100%;
@@ -81,6 +82,7 @@ h3 {
 .link {
   text-decoration: none;
   font-style: normal;
+  color: #2e2f42;
 }
 .container {
   width: 1158px;
