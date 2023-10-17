@@ -122,7 +122,6 @@ h3 {
   margin-right: auto;
 }
 .menu-nav-item {
-  padding: 24px 0;
 }
 .link-nav {
   font-size: 16px;
@@ -132,6 +131,7 @@ h3 {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .link-nav:hover,
 .link-nav:focus {
